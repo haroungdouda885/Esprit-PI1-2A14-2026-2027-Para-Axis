@@ -19,7 +19,7 @@ app/Views/assets/css|js       front.css, admin.css, main.js
 
 ## Run
 - `php -S localhost:8000` in this folder, then open http://localhost:8000/index.php?page=support
-- or XAMPP: copy the folder to `htdocs`, open http://localhost/customer-support-workshop-correct/index.php?page=support
+- or XAMPP: copy the folder to `htdocs`, open http://localhost/customer-support/index.php?page=support
 
 Log in as **Customer** to create tickets, or **Support admin** to answer them (index.php?page=admin).
 
