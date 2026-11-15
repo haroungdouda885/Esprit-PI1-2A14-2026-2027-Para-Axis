@@ -1,4 +1,4 @@
-# Par'Axis – Online Parapharmacy (ParaSanté)
+# Par'Axis – Online Parapharmacy 
 
 ## Overview
 
@@ -153,9 +153,9 @@ a deleted product is removed from the bag automatically.
 | Member   | Module                         |
 |----------|--------------------------------|
 | Member 1 – *[name]* | Customer support (tickets) |
-| Member 2 – *[name]* | Catalog (categories, products) |
-| Member 3 – *[name]* | Sales (orders, payments)   |
-| Member 4 – Mariem Sammar | Health advice (articles, comments) |
+| Member 2 – Adem Debbich | Catalog (categories, products) |
+| Member 3 – Firas Zouinkhi | Sales (orders, payments)   |
+| Member 4 – *[name]* | Health advice (articles, comments) |
 | Member 5 – *[name]* | Quiz                       |
 | Member 6 – *[name]* | Events                     |
 
