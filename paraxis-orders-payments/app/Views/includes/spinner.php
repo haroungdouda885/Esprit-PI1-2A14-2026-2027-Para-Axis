@@ -1,0 +1,5 @@
+<!-- Spinner Start -->
+<div id="spinner" class="spinner-overlay">
+  <div class="spinner"></div>
+</div>
+<!-- Spinner End -->
