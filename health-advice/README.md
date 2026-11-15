@@ -1,4 +1,4 @@
-# Par'Axis — Health advice module (Template integration workshop)
+# Par'Axis — Health advice module 
 
 Module entities: **Article** + **ArticleComment** (`article_comment.article_id` → `article.id`).
 Same architecture as the team's *customer-support* module: **one entry point** (`index.php?page=...`)
@@ -57,25 +57,9 @@ Back-office pages call `requireAdmin()`: anyone else is sent to `?page=login&adm
 Data is kept in the PHP session (`$_SESSION['articles']`, `$_SESSION['article_comments']`), starting
 from the rows written in the models. Close the browser to reset.
 
-## Workshop PDF steps
-
-| PDF step | File(s) |
-|---|---|
-| Part 1 — Step 2: `includes/` | `app/Views/includes/` |
-| Part 1 — Step 3–7: head, spinner, navbar (+ active link), footer (+ back to top), scripts | `includes/*.php` |
-| Part 1 — Step 8/10: assemble the pages | `front-layout.php` + `pages/health-advice.php`, `article.php`, `login.php`, `signup.php` |
-| Part 2 — Step 2: `partials/` | `app/Views/partials/` |
-| Part 2 — Step 3–7: head + preloader, sidebar (dynamic), header, footer, scripts + `$extraScripts` | `partials/*.php` |
-| Part 2 — Step 8: layout + base Controller | `layout.php`, `Controllers/Controller.php` |
-| Part 2 — Step 9: build a page | `pages/articles.php` + `ArticlesController.php` |
-| Part 2 — Step 11: other pages | `pages/comments.php` + `CommentsController.php` + lines in `routes.php` |
 
 ## Add a page
 1. Create `app/Views/pages/<name>.php` with the page content only.
 2. Create `app/Controllers/<Name>Controller.php` extending `Controller` (set `$page`, `$title`, `$layout`)
    and call `$this->render('<name>')`.
 3. Add (or point) the route in `app/routes.php`.
-
-## Next step (database)
-Only `Models/Model.php` changes: `all()`, `find()`, `where()`, `insert()`, `update()`, `delete()`
-will run PDO queries. Controllers and Views stay the same.
