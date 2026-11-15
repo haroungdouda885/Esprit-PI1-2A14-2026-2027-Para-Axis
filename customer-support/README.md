@@ -1,4 +1,4 @@
-# ParaSanté Customer Support — Workshop "Template Integration"
+# Para'Axis Customer Support — Workshop "Template Integration"
 
 
 
