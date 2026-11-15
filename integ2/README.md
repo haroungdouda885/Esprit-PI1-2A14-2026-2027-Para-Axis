@@ -145,9 +145,9 @@ app/Views/
 | Member 1 – *[name]* | Customer support (tickets) |
 | Member 2 – *[name]* | Catalog                    |
 | Member 3 – *[name]* | Sales / orders             |
-| Member 4 – Mariem Sammar | Health advice (articles, comments) |
-| Member 5 – *[name]* | Health quiz (quizzes, questions) |
-| Member 6 – *[name]* | Events (events, registrations) |
+| Member 4 – *[name]*| Health advice (articles, comments) |
+| Member 5 – Elyes B.Dabbous| Health quiz (quizzes, questions) |
+| Member 6 – Ayoub Dellai| Events (events, registrations) |
 
 ## Academic Context
 
