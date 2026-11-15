@@ -58,18 +58,6 @@ The bag / checkout / orders belong to the Sales module (member 3): the **Bag** l
 Data is kept in the PHP session (`$_SESSION['categories']`, `$_SESSION['products']`), starting
 from the rows written in the models. Close the browser to reset.
 
-## Workshop PDF steps
-
-| PDF step | File(s) |
-|---|---|
-| Part 1 — Step 2: `includes/` | `app/Views/includes/` |
-| Part 1 — Step 3–7: head, spinner, navbar (+ active link), footer (+ back to top), scripts | `includes/*.php` |
-| Part 1 — Step 8/10: assemble the pages | `front-layout.php` + `pages/shop.php`, `product.php`, `login.php`, `signup.php` |
-| Part 2 — Step 2: `partials/` | `app/Views/partials/` |
-| Part 2 — Step 3–7: head + preloader, sidebar (dynamic), header, footer, scripts + `$extraScripts` | `partials/*.php` |
-| Part 2 — Step 8: layout + base Controller | `layout.php`, `Controllers/Controller.php` |
-| Part 2 — Step 9: build a page | `pages/products.php` + `ProductsController.php` |
-| Part 2 — Step 11: other pages | `pages/categories.php` + `CategoriesController.php` + lines in `routes.php` |
 
 ## Add a page
 1. Create `app/Views/pages/<name>.php` with the page content only.
