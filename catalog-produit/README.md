@@ -1,4 +1,4 @@
-# Par'Axis — Catalog module (Template integration workshop)
+# Par'Axis — Catalog module
 
 Module entities: **Category** + **Product** (`product.category_id` → `category.id`).
 Same architecture as the team's *health-advice* and *customer-support* modules: **one entry point** (`index.php?page=...`)
