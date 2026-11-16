@@ -9,12 +9,12 @@ Par'Axis is an online parapharmacy web application. It brings together, in **one
 front office for customers and a back office for administrators. This repository contains the integration of
 the **six team modules** built during the *Template Integration* workshop:
 
-- **Customer support** (member 1): customers open support tickets and chat with the support team.
-- **Catalog** (member 2): categories and products, shop window and product pages.
-- **Orders and payments** (member 3): bag, checkout with simulated payment, order history.
-- **Health advice** (member 4): health articles with customer comments.
-- **Health quiz** (member 5): quizzes with score and correct answers.
-- **Events & workshops** (member 6): events with limited seats and customer registrations.
+- **Customer support** : customers open support tickets and chat with the support team.
+- **Catalog** : categories and products, shop window and product pages.
+- **Orders and payments** : bag, checkout with simulated payment, order history.
+- **Health advice** : health articles with customer comments.
+- **Health quiz** : quizzes with score and correct answers.
+- **Events & workshops** : events with limited seats and customer registrations.
 
 Problem solved: customers shop, get health advice, test their knowledge, join wellness events and contact
 support in the same store, and admins manage everything from a single dashboard.
@@ -180,12 +180,12 @@ app/Views/
 
 | Member   | Module                         |
 |----------|--------------------------------|
-| Member 1 – *[name]* | Customer support (tickets) |
-| Member 2 – *[name]* | Catalog (categories, products) |
-| Member 3 – *[name]* | Orders and payments        |
+| Member 1 – haroun gdouda| Customer support (tickets) |
+| Member 2 – adem debbich| Catalog (categories, products) |
+| Member 3 – firas zouinkhi| Orders and payments        |
 | Member 4 – Mariem Sammar | Health advice (articles, comments) |
-| Member 5 – *[name]* | Health quiz                |
-| Member 6 – *[name]* | Events & workshops         |
+| Member 5 – elyes b.dabbous | Health quiz                |
+| Member 6 – ayoub dellai | Events & workshops         |
 
 ## Academic Context
 
