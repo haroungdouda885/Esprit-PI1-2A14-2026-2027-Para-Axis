@@ -1,9 +1,0 @@
-# OS / editors
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Local config (future database credentials)
-.env
-config/database.local.php
