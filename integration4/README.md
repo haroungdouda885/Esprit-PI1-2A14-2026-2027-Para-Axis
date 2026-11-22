@@ -212,12 +212,12 @@ app/Views/
 
 | Member   | Module                         |
 |----------|--------------------------------|
-| Member 1 – *[name]* | Customer support (tickets) |
-| Member 2 – *[name]* | Catalog (categories, products) |
-| Member 3 – *[name]* | Orders and payments        |
+| Member 1 – haroun gdouda| Customer support (tickets) |
+| Member 2 – adem debbich| Catalog (categories, products) |
+| Member 3 – firas zouinkhi | dons and associations        |
 | Member 4 – Mariem Sammar | Health advice (articles, comments) |
-| Member 5 – *[name]* | Health quiz                |
-| Member 6 – *[name]* | Events & workshops         |
+| Member 5 – elyes b.dabbous| Health quiz                |
+| Member 6 – ayoub dellai | Events & workshops         |
 
 ## Academic Context
 
